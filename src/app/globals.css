@@ -1,4 +1,9 @@
 @import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../../.flowbite-react/class-list.json";
+/* app/globals.css */
+
+
 
 :root {
   --background: #ffffff;
@@ -18,6 +23,7 @@
     --foreground: #ededed;
   }
 }
+
 
 body {
   background: var(--background);
