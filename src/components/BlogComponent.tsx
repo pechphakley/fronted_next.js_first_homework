@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import { blog_type } from '@/type/blog/blog-type'
+import { blog_type } from '@/type/blog/blog'
 export default function BlogComponent({profile,name,position}: blog_type ) {
   return (
     <>
