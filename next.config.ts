@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
    images: {
-    domains: ['i.pinimg.com'],
+     domains: ["images.unsplash.com"],
   },
 };
 module.exports = nextConfig;
